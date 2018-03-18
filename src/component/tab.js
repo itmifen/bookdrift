@@ -20,11 +20,11 @@ const {Tab, TabBarItem, Article, SearchBar, TabBar,TabBarLabel,TabBody,
 } = WeUI;
 
 
-import IconMsg from '../img/home.png';
-import IconArticle from '../img/home.png';
-
 import IconHome from '../img/home.png';
 import IconUser from '../img/user.png';
+
+import Book1 from '../img/book1.jpg';
+import Book2 from '../img/book2.jpg';
 
 
 
@@ -76,11 +76,11 @@ render() {
 
                         return (
                             <MediaBox key={i} type="appmsg" onClick={this.clickHandle.bind(this, '/detail')}>
-                            <MediaBoxHeader><img src={IconMsg} /></MediaBoxHeader>
+                            <MediaBoxHeader><img src={Book1} /></MediaBoxHeader>
                                                 <MediaBoxBody>
-                                                    <MediaBoxTitle> dddd </MediaBoxTitle>
+                                                    <MediaBoxTitle> 浪潮之巅 </MediaBoxTitle>
                                                     <MediaBoxDescription>
-                                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                                    一本颠覆人们对信息时代的认识、对创新和创业的理解的好书。作者吴军通过介绍硅谷成功的秘诀，揭示了信息时代的特点和方法论。
                                                     </MediaBoxDescription>
                                                 </MediaBoxBody>
                             </MediaBox>
@@ -97,7 +97,7 @@ render() {
 
                     <Cell onClick={this.clickHandle.bind(this, '/login')}>
                         <CellHeader style={{position: 'relative', marginRight: '10px'}}>
-                            <img src={IconArticle} style={{width: '50px', display: 'block'}} />
+                            <img src={IconUser} style={{width: '50px', display: 'block'}} />
                            
                         </CellHeader>
                         <CellBody>
