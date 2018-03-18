@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.2.2/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.10.6
+3 info using node@v6.2.2
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle bookdrift@1.0.0~prestart: bookdrift@1.0.0
+6 silly lifecycle bookdrift@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle bookdrift@1.0.0~start: bookdrift@1.0.0
+8 verbose lifecycle bookdrift@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle bookdrift@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/joylee/workfile/project/bookdrift/node_modules/.bin:/usr/local/Cellar/node/6.2.2/bin:/usr/local/opt/telnet/bin:/Users/joylee/.yarn/bin:/Users/joylee/.dnx/runtimes/dnx-coreclr-darwin-x64.1.0.0-rc1-update2/bin:/Users/joylee/.dnx/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/Cellar/varnish/4.0.3/bin:/usr/local/Cellar/varnish/4.0.3/sbin:/usr/local/php/bin:/usr/local/Cellar/mongodb/3.0.6/bin:/Users/joylee/Library/Android/sdk:/Users/joylee/Library/Android/sdk/tools:/Users/joylee/Library/Android/sdk:/Users/joylee/Library/Android/sdk/platform-tools:/Users/joylee/Library/Android/sdk/platform-tools:/Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/bin
+10 verbose lifecycle bookdrift@1.0.0~start: CWD: /Users/joylee/workfile/project/bookdrift
+11 silly lifecycle bookdrift@1.0.0~start: Args: [ '-c', 'webpack-dev-server --open --mode development' ]
+12 silly lifecycle bookdrift@1.0.0~start: Returned: code: 1  signal: null
+13 info lifecycle bookdrift@1.0.0~start: Failed to exec start script
+14 verbose stack Error: bookdrift@1.0.0 start: `webpack-dev-server --open --mode development`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:852:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+15 verbose pkgid bookdrift@1.0.0
+16 verbose cwd /Users/joylee/workfile/project/bookdrift/src
+17 error Darwin 16.7.0
+18 error argv "/usr/local/Cellar/node/6.2.2/bin/node" "/usr/local/bin/npm" "start"
+19 error node v6.2.2
+20 error npm  v3.10.6
+21 error code ELIFECYCLE
+22 error bookdrift@1.0.0 start: `webpack-dev-server --open --mode development`
+22 error Exit status 1
+23 error Failed at the bookdrift@1.0.0 start script 'webpack-dev-server --open --mode development'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the bookdrift package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --open --mode development
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs bookdrift
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls bookdrift
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

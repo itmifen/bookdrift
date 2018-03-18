@@ -1,0 +1,62 @@
+.container{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} 
+
+.container>div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} 
+
+.detailtitle{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.detaildes{
+    color: #888888;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.detaildescontent{
+    color: #000000;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.marginleftright10{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.line{
+    content: " ";
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 1px;
+    border-top: 1px solid #E5E5E5;
+    color: #E5E5E5;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+/* 
+ .container>div>div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+} */
