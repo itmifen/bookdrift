@@ -1,7 +1,7 @@
 import React from 'react';
 import WeUI from 'react-weui';
 
-import srcArticle from './1.jpg';
+import srcArticle from 'img/1.jpg';
 import '../bdstyle.css';
 
 const {Article, Page,

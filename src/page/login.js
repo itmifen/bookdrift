@@ -2,7 +2,7 @@
 import React from 'react';
 import WeUI from 'react-weui';
 
-import srcArticle from './1.jpg';
+import srcArticle from 'img/1.jpg';
 
 const {Article, Page,
     Button,
@@ -16,13 +16,35 @@ const {Article, Page,
     CellFooter,
     VCode,
     vcodeSrc,
-    ButtonArea
+    ButtonArea,
+    Toast
 
 } = WeUI;
 
 
 
 export default class BDLogin extends React.Component {
+
+    login() {
+        this.setState({showToast: true});
+
+        this.state.toastTimer = setTimeout(()=> {
+            this.setState({showToast: false});
+            this.clickHandle("/user")
+        }, 800);
+    }
+
+    clickHandle(url) {
+        this.props.history.push(url)
+      }
+    
+
+
+
+    state = {
+        showToast: false,
+    };
+
 
     render() {
         return (
@@ -48,8 +70,10 @@ export default class BDLogin extends React.Component {
                     </FormCell>
                 </Form>
                 <ButtonArea>
-                    <Button>登录</Button>
+                    <Button onClick={this.login.bind(this) }>登录</Button>
                 </ButtonArea>
+                <Toast icon="success-no-circle" show={this.state.showToast}>登录成功</Toast>                
+                <div className="regdiv" onClick={this.clickHandle.bind(this, '/reg') }>新用户注册</div>
             </Page>
         )
     }

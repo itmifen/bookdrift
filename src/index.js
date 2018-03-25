@@ -8,10 +8,10 @@ import 'react-weui/build/packages/react-weui.css';
 
 
 
-import BDTab from './component/tab';
-import BDDetail from './component/detail';
-import BDAbout from './component/about';
-import App from './component/app';
+import BDTab from './page/tab';
+import BDDetail from './page/detail';
+import BDAbout from './page/about';
+import App from './page/app';
 
 import  './bdstyle.css';
 

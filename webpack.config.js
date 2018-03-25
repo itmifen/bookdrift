@@ -49,5 +49,12 @@ module.exports={
                 loader: 'babel-loader'    
             }
         ]
+    },
+    resolve: {
+        modules: [
+             //设置绝对路径
+            path.resolve('./src'),
+            path.resolve('./node_modules')
+        ]
     }
 }

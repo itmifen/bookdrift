@@ -2,7 +2,6 @@
 import React from 'react';
 import WeUI from 'react-weui';
 
-import srcArticle from './1.jpg';
 
 
 const {Article, Page,
